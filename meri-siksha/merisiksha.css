@@ -221,6 +221,9 @@ display: flex;
 .all-content h3 span{
     color: rgb(255, 204, 0);
 }
+.all-content{
+    text-align:left;
+}
 /* =================subject-section================================================== */
 .subject{
     margin-bottom: 100px;
@@ -442,6 +445,16 @@ display: flex;
       color: #fff!important;
       margin-bottom: 20px!important;
     }
+      .all-content{
+       text-align:left!important;   
+          
+      }
+      .all-content p{
+          
+          
+          text-align:left!important;
+          
+      }
 
   }
   

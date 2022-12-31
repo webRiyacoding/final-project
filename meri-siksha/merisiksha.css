@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Gloria+Hallelujah&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Gloria+Hallelujah&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Gloria+Hallelujah&family=Open+Sans:wght@600&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700&family=Gloria+Hallelujah&family=Mukta:wght@500&family=Open+Sans:wght@600&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap');
+@import '~mdb-ui-kit/css/mdb.min.css';
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --orang: #Ff6600;
+    --yellow: #Ff6600;
+    --bgnav: #171717;
+    --white: #ffffff;
+    --font-family: 'Roboto', sans-serif;
+    --black:#3C4852;
+    --font: 'Jost', sans-serif;
+  }
+  
+   .navbar{
+   background-color: #fff!important;
+  
+
+}
+.navbar-brand{
+    width: 20%;
+    color: var(--bgnav)!important;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+color:rgb(255, 128, 0)!important;
+font-size: 20px!important;
+font-weight: 700 !important;
+padding:0px  50px!important;
+font-family: var(--font)!important;
+
+}
+.navbar-toggler {
+
+  color: orangered!important;
+  }
+  
+   .navbar-light .navbar-toggler span {
+    color: #Ff6600!important;
+    font-size: 35px!important;
+    
+  
+  }
+  
+  
+
+.nav-btn{
+background-color: rgb(155, 217, 56)!important;
+font-family: var(--font-family)!important;
+}
+.my-container{
+
+min-width: 100%;
+
+background: url(banner1.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+       
+       
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+} 
+
+
+.hero-main h1{
+    padding-top: 100px;
+    color: #fff;
+    
+
+}
+.hero-main p{
+    color: #fff;
+    
+}
+.start-btn{
+  
+    padding: 10px 50px;
+    background-color: #f8ae47;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 208, 0);
+}
+/* ==========second-section================================= */
+
+.card{
+    border: none!important;
+    
+}
+
+.class-container{
+    text-align: center;
+    padding-top: 50px;
+}
+.card-body h6{
+    padding-top: 20px ;
+    color: rgba(33, 36, 44, 0.64) !important;
+    letter-spacing: 5px;
+}
+.card-title{
+    padding-top: 20px;
+    color: #Ff6600;
+    
+}
+.card-text{
+    padding-top: 20px;
+    text-align: left!important;
+    
+}
+.button-container{
+  
+  padding: 10px;
+  
+}
+
+
+.class-btn{
+  
+    border: none;
+    background-color: rgb(255, 204, 0);
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.edu-btn{
+background-color: rgb(255, 204, 0);
+border: none;
+padding: 10px 40px;
+color: #fff;
+font-size: 20px;
+font-weight: 700;
+box-shadow: 1px 1px 30px yellow;
+border-radius: 30px;
+
+
+}
+.about-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edu-btn-container{
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/* =================third-section========================== */
+.card{
+    padding: 10px;
+    
+}
+.card-img-top{
+    width: 100%!important;
+    height: auto;
+     
+}
+.services-info{
+  display: flex;
+}
+/* ==================prepare-section======================================== */
+.live-class{
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.901);
+    box-shadow: 0px 16px 32px 0px rgba(233, 238, 242, 0.986);
+    border-radius: 10px;
+}
+.prepare{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.live-class h1{
+    font-size: 30px;
+   color: #3C4852;
+   font-weight: 600;
+}
+.live-class p{
+    font-size: 20px;
+}
+
+.brand-btn2{
+    background-color: #Ff6600;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+/* ================Our Exctra Effort For Student============================= */
+
+.heading{
+    text-align: center;
+    color: #3C4852;
+}
+.brand-btn3{
+    padding: 10px 40px ;
+    margin-top: 20px;
+}
+.all-content p{
+  padding-bottom: 20px;
+  text-align: left;
+}
+.all-content h3 span{
+    color: rgb(255, 204, 0);
+}
+/* =================subject-section================================================== */
+.subject{
+    margin-bottom: 100px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+  .card-3{
+    background-color:rgba(91, 210, 231, 0.523)!important;
+    
+  }
+  .card-header2{
+    border: none;
+    color: orangered;
+    font-weight: 500;
+  }
+  .card-title2{
+    color: black;
+  }
+  .card-text2{
+    color: rgba(90, 88, 88, 0.737);
+    font-size: 16px;
+    font-family: var(--font-family);
+    text-align: center!important;
+  }
+  
+  .swiper-navBtn{
+    font-size: 10px!important;
+    color: orangered!important;
+    background-color: rgba(255, 255, 255, 0.822)!important;
+    padding: 20px 20px;
+    border-radius: 50%;
+  }
+  .swiper-navBtn:hover{
+    color: #fff!important;
+    background-color: rgba(255, 68, 0, 0.706)!important;
+    
+    
+  }
+  .swiper-navBtn::after,
+  .swiper-navBtn::before{
+    font-size: 30px!important;
+    font-weight: bold!important;
+  }
+  /* ======================footer-section============================= */
+  footer{
+    background-color: black;
+    color: white;
+   }
+   .form-container{
+    padding: 20px 0px;
+    
+   }
+   form{
+    display: inline-block;
+    
+    text-align: center;
+   }
+   .form-container h1{
+    padding-bottom: 30px;
+  
+   }
+   .form-container label{
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+  
+   }
+   .form-container input{
+    padding: 10px 30px;
+    
+    
+   }
+  .form-container .submit-btn{
+  
+  background-color:#Ff6600; 
+  padding: 10px 40px;
+  border: none;
+  border-radius: 30px;
+   }
+   
+   
+   .social-link span{
+    color: #Ff6600;
+    font-size: 20px;
+   }
+  .footer-bottom{
+    background-color: #171717;
+  }
+  .fa-brands{
+    color: #fff;
+  }
+  /* ==================media-query=========================== */
+  @media screen and (max-width: 1024px) {
+   
+    .navbar{
+      width: 100%!important;
+    }
+    
+    .navbar-collapse {
+      margin-top: 20px;
+    }
+    .two-teacher{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    
+    .all-content{
+      text-align: center;
+    }
+    .all-content p{
+     text-align: center;
+      line-height: 2;
+    }
+   
+.main-container{
+   flex-direction: column;
+   text-align: center;
+}
+
+.hero-main{
+  padding: 50px;
+}
+.hero-main h1{
+  padding-top: 10px;
+
+  }
+  .edu-btn-container{
+    
+   flex-direction: column;
+   
+    
+  }
+
+ 
+}
+@media screen and (max-width: 769px) {
+
+    .services-info{
+      flex-direction: column;
+    }
+    .about-page{
+      flex-direction: column;
+    }
+    .two-teacher{
+      flex-direction: column;
+      justify-content: center;
+    }
+    .prepare{
+      flex-direction: column;
+      
+    }
+    
+   
+    
+  }
+  @media screen and (max-width: 400px){
+    .main-container{
+      width: 100%!important;
+    }
+    
+    .footer-section{
+      width: 100%;
+    }
+    form{
+     flex-direction: column!important;
+  
+    }
+    .form-container input{
+      flex-direction: column!important;
+        
+     }
+     
+    .submit-btn{
+      margin-top: 20px;
+      
+    } 
+    .navbar-collapse{
+      margin-top: 20px!important;
+      
+    }
+    .navbar-nav{
+      text-align: center!important;
+    }
+    .nav-link{
+      padding-top: 20px!important;
+      background-color: rgb(255, 157, 0)!important;
+      color: #fff!important;
+      margin-bottom: 20px!important;
+    }
+
+  }
+  
+   
+  
+ 
+  
